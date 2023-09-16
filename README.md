@@ -45,6 +45,7 @@ Fig. 1-2
 ![Fig. 1-3](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/df153a81-7417-4776-8553-f7c8656adfb5/%E6%88%AA%E5%9C%96_2023-04-01_10.27.46.png)
 
 Fig. 1-3
+![FFMC](https://github.com/scfengv/Forest-Fire-Prediction-with-Regression-and-Classification/assets/123567363/4287e44d-3daa-4833-acda-b3d6edb004ac)
 
 ![Fig. 2-1](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a3764e54-a139-4f04-bbb4-6484ed999514/FFMC.png)
 
