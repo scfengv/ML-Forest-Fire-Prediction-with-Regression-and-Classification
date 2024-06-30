@@ -81,13 +81,13 @@ def main():
     variable_selection.preprocessor()
 
     # Linear Regression
-    # linear_regression = LinearRegression()
-    # variable_selection.sequential_features_selection(
-    #     forward = True, floating = True, cv = 5, model = linear_regression
-    # )
-    # variable_selection.sfs_with_k_features(
-    #     forward = True, floating = True, cv = 5, model = linear_regression, k_features = 10
-    # )
+    linear_regression = LinearRegression()
+    variable_selection.sequential_features_selection(
+        forward = True, floating = True, cv = 5, model = linear_regression
+    )
+    variable_selection.sfs_with_k_features(
+        forward = True, floating = True, cv = 5, model = linear_regression, k_features = 10
+    )
 
     # SVM
     svr = svm.SVR()
