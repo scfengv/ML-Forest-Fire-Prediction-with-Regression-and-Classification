@@ -85,7 +85,7 @@ class FireModel:
         y_pred = model.predict(self.x_test)
         y_pred_score = model.predict_proba(self.x_test)
         
-        print(classification_report(self.y_test, y_pred, target_names=self.target_names))
+        print(classification_report(self.y_test, y_pred, target_names = self.target_names))
         
         label_binarizer = LabelBinarizer().fit(self.y_train)
         y_test_bin = label_binarizer.transform(self.y_test)
@@ -106,7 +106,6 @@ class FireModel:
         plt.show()
 
 def main():
-
     os.chdir("/Users/shenchingfeng/GitHub/ML-Forest-Fire-Prediction-with-Regression-and-Classification")
     file_path = 'data/transformed_df.csv'
     cat_col = ['X', 'Y', 'month', 'day']
